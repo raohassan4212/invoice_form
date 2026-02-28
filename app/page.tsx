@@ -643,7 +643,7 @@ ${itemsHtml}
       form.append("data", JSON.stringify(structuredData))
 
       console.log("🔄 Submitting order...")
-      const response = await fetch("http://localhost:4000/api/orders/create", {
+      const response = await fetch("api/invoices", {
         method: "POST",
         body: form,
       })
