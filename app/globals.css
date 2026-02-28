@@ -1,0 +1,292 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+#form-container {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.selected {
+  border: 2px solid #10b981;
+  background-color: #d1fae5;
+}
+
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  background-color: #d1fae5;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  border: 2px solid #10b981;
+}
+
+.variant-box {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  background: #f9f9f9;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.variant-box.enabled {
+  background: #fff;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.variant-box .controls {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.variant-box input {
+  width: 40px;
+  text-align: center;
+}
+
+.step-dots {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.step-dots::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #b9101040;
+  transform: translateY(-50%);
+  z-index: 0;
+}
+
+.step-progress {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 2px;
+  background: #b91010;
+  transform: translateY(-50%);
+  z-index: 1;
+  transition: width 0.3s ease;
+}
+
+.step-dots span {
+  width: 16px;
+  height: 16px;
+  background: #b91010;
+  border-radius: 9999px;
+  z-index: 2;
+}
+
+.step-dots span.active {
+  background-color: #b91010;
+}
+
+button#submit-btn {
+  background-color: #10b981;
+}
+
+@media (min-width: 768px) {
+  .md\:flex-row {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+#app {
+  height: 670px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 768px) {
+  #app {
+    height: 560px;
+  }
+}
+
+#step-container {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.text-xl {
+  font-size: 1.55rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+}
+
+.text-sm.font-semibold.text-blue-600 {
+  color: black !important;
+}
+
+.flex.justify-between.mt-6 {
+  padding-bottom: 5px !important;
+}
+
+button#back-btn {
+  background-color: #e5e5e5 !important;
+  padding: 0.6rem 1.2rem !important;
+  border-radius: 10px !important;
+}
+
+.py-56 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+.h-20 {
+  height: 6.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .py-56 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .text-xl {
+    font-size: 1.3rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+  }
+}
+
+.loader {
+  border-top-color: #38a169;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-spinner {
+  -moz-appearance: textfield;
+}
+div#v0-built-with-button-0da3d732-da09-4584-b874-8b1806b8a04a {
+  display: none !important;
+}
+
+.rounded-lg.border.bg-card.text-card-foreground.shadow-sm.w-full.max-w-4xl.max-h-\[90vh\].overflow-y-auto {
+    background-color: white !important;
+}
+/* globals.css  – Tailwind will keep this in the final build */
+
+.container.mx-auto.px-4.py-8 {
+    overflow-y: scroll;
+    height: 100vh;
+}
+@media (min-width: 768px) {
+    .md\:max-h-96 {
+        max-height: 31rem !important;
+    }
+}
+
+svg.w-12.h-12.mx-auto.text-gray-400.opacity-50 {
+    margin-left: 40px !important;
+}
+
+@media only screen and (max-width: 767px) {
+svg.w-12.h-12.mx-auto.text-gray-400.opacity-50 {
+    margin-left:18px !important;
+ }
+}
+
+p.text-sm.text-gray-600.font-medium {
+    text-transform: uppercase;
+}
+
+h4.text-md.font-semibold {
+    text-transform: uppercase;
+    font-size: 14px !important;
+}
+
+h5.text-sm.font-medium.text-gray-700.mb-2 {
+    text-transform: uppercase;
+}
+
+h3.font-semibold.text-gray-800.text-sm.truncate {
+    text-transform: uppercase;
+}
+
+button.bg-\[\#02a8e4\].hover\:bg-\[\#0296d1\].text-white.w-full.py-3.rounded-xl.font-semibold.shadow {
+    text-transform: uppercase;
+}
+
+h2.text-xl.text-gray-700.mb-4 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+h3.text-sm.font-semibold.text-gray-700.mb-3 {
+    text-transform: uppercase;
+}
+
+td.py-2.text-gray-800 {
+    text-transform: uppercase;
+}
+
+button.text-sm.text-gray-600.hover\:text-black.bg-gray-200.px-5.py-2.rounded-xl {
+    text-transform: uppercase;
+}
+
+button.bg-\[\#02a8e4\].hover\:bg-\[\#0296d1\].text-white.px-5.py-2.rounded-xl.shadow {
+    text-transform: uppercase;
+}
+
+h2.text-xl.text-gray-700.mb-8 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+select.w-full.px-4.py-3.border.border-gray-300.rounded-md.focus\:outline-none.focus\:ring-2.focus\:ring-\[\#00bcd4\].text-gray-700.bg-white {
+    text-transform: uppercase;
+}
+
+input.w-full.px-4.py-3.border.border-gray-300.rounded-md.focus\:outline-none.focus\:ring-2.focus\:ring-\[\#00bcd4\].placeholder-gray-400 {
+    text-transform: uppercase;
+}
+
+.font-medium {
+    text-transform: uppercase;
+}
+
+h2.text-xl.text-gray-700.mb-6 {
+    text-transform: uppercase;
+}
+
+.text-xl {
+    font-size: 1.25rem !important;
+}
+/* --- PDF / print helpers ----------------------------------- */
