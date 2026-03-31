@@ -2,7 +2,14 @@
 
 import { useState, useEffect } from "react"
 import { RotateCcw } from "lucide-react"
-import { supabase } from "../lib/supabase-client"
+// import { supabase } from "../lib/supabase-client"
+
+import { createClient } from "@supabase/supabase-js"
+
+const supabase = createClient(
+ "https://kcgpssztbdeonjnyqzqw.supabase.co"!,
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtjZ3Bzc3p0YmRlb25qbnlxenF3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3MjI5NDgxOSwiZXhwIjoyMDg3ODcwODE5fQ.BkMTggW_XdRzrYeCeEcwVzoU3Vm_s4fG9pMaJ2R3Jpo"! // 🔑 bypass RLS
+)
 
 interface Product {
   id: number
@@ -204,6 +211,87 @@ const products: Product[] = [
         image:
           "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/GRAPE_EUPHORIABLEND-4CTPACK_3dc7702b-e1ad-41d6-8915-1a975208ae67_110x110@2x.png?v=1743020464",
       },
+    ],
+  },
+    {
+    id: 21,
+    name: "DOUBLE DRAGON 7-OH 100MG TAB | 500MG POWER PACK",
+    image:
+      "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/Perks%20Kratom%20extract%205ct%201250mgpack%20(1).png",
+    packagingSpecs: ["100 MG TABS x 5 TABS", "500 MG PACK", "5 PACKS/BOX", "30 BOXES/CASE"],
+    price: 92.50,
+    variants: [
+      {
+        name: "BLUE RAZZ (RISE BLEND)",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/Perks%20Kratom%20extract%205ct%201250mgpack%20(1).png",
+      },
+      {
+        name: "LUCKY CHERRY (FADE BLEND)",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/Perks%20Kratom%20extract%205ct%201250mgpack%20(1).png",
+      },
+      {
+        name: "STRAW MELON (FLOW BLEND)",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/Perks%20Kratom%20extract%205ct%201250mgpack%20(1).png",
+      }
+    ],
+  },
+      {
+    id: 22,
+    name: "DOUBLE DRAGON 7-OH 80MG TAB | 3 IN 1 FLIGHT BOX",
+    image:
+      "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/WhatsApp%20Image%202026-03-31%20at%2011.54.20%20PM.jpeg",
+    packagingSpecs: ["80 MG TABS x 30 TABS", "30 TAB/BOX", "30 BOXES/CASE"],
+    price: 105,
+    variants: [
+      {
+        name: "WATERMELON RISE BLEND",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/WhatsApp%20Image%202026-03-31%20at%2011.54.20%20PM.jpeg",
+      },
+      {
+        name: "MANGO FLOW BLEND",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/WhatsApp%20Image%202026-03-31%20at%2011.54.20%20PM.jpeg",
+      },
+      {
+        name: "GRAPE FADE BLEND",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/WhatsApp%20Image%202026-03-31%20at%2011.54.20%20PM.jpeg",
+      }
+    ],
+  },
+
+        {
+    id: 23,
+    name: "DOZO PERKS MG-X 125MG TAB / 500MG PACK",
+    image:
+      "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/DOZO%20PERKS%20MG-X%20125MG%20TAB%20_%20500MG%20PACK.png",
+    packagingSpecs: ["125 MG TABS x 4 TABS", "500 MG PACK", " 5 PACKS/BOX", "40 BOXES/CASE = 200 PACKS"],
+    price: 75,
+    variants: [
+      {
+        name: "BLUE RAZZ",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/DOZO%20PERKS%20MG-X%20125MG%20TAB%20_%20500MG%20PACK.png",
+      },
+      {
+        name: "GRAPE",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/DOZO%20PERKS%20MG-X%20125MG%20TAB%20_%20500MG%20PACK.png",
+      },
+      {
+        name: "STRAWBERRY",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/DOZO%20PERKS%20MG-X%20125MG%20TAB%20_%20500MG%20PACK.png",
+      },
+            {
+        name: "WILD MANGO",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/DOZO%20PERKS%20MG-X%20125MG%20TAB%20_%20500MG%20PACK.png",
+      }
     ],
   },
 ]
@@ -668,7 +756,7 @@ ${itemsHtml}
           const pdfBlob = pdf.output("blob")
           const pdfFileName = `Wazabi_Order_${String(orderNumber).padStart(3, "0")}_${new Date().toISOString().split("T")[0]}.pdf`
 
-          console.log("🔄 Uploading PDF to storage...")
+          console.log("🔄 Uploading PDF to storage...",pdfBlob)
           const { data: uploadData, error: uploadError } = await supabase.storage
             .from("invoices")
             .upload(`public/${pdfFileName}`, pdfBlob, {
