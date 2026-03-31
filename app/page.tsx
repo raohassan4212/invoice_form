@@ -224,17 +224,17 @@ const products: Product[] = [
       {
         name: "BLUE RAZZ (RISE BLEND)",
         image:
-          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/Perks%20Kratom%20extract%205ct%201250mgpack%20(1).png",
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/WhatsApp%20Image%202026-04-01%20at%203.03.47%20AM.jpeg",
       },
       {
         name: "LUCKY CHERRY (FADE BLEND)",
         image:
-          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/Perks%20Kratom%20extract%205ct%201250mgpack%20(1).png",
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/WhatsApp%20Image%202026-04-01%20at%203.03.47%20AM%20(1).jpeg",
       },
       {
         name: "STRAW MELON (FLOW BLEND)",
         image:
-          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/Perks%20Kratom%20extract%205ct%201250mgpack%20(1).png",
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/WhatsApp%20Image%202026-04-01%20at%203.03.47%20AM%20(2).jpeg",
       }
     ],
   },
@@ -247,17 +247,7 @@ const products: Product[] = [
     price: 105,
     variants: [
       {
-        name: "WATERMELON RISE BLEND",
-        image:
-          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/WhatsApp%20Image%202026-03-31%20at%2011.54.20%20PM.jpeg",
-      },
-      {
-        name: "MANGO FLOW BLEND",
-        image:
-          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/WhatsApp%20Image%202026-03-31%20at%2011.54.20%20PM.jpeg",
-      },
-      {
-        name: "GRAPE FADE BLEND",
+        name: "WATERMELON RISE BLEND | MANGO FLOW BLEND | GRAPE FADE BLEND",
         image:
           "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/WhatsApp%20Image%202026-03-31%20at%2011.54.20%20PM.jpeg",
       }
@@ -275,22 +265,22 @@ const products: Product[] = [
       {
         name: "BLUE RAZZ",
         image:
-          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/DOZO%20PERKS%20MG-X%20125MG%20TAB%20_%20500MG%20PACK.png",
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/blue-razz.jpeg",
       },
       {
         name: "GRAPE",
         image:
-          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/DOZO%20PERKS%20MG-X%20125MG%20TAB%20_%20500MG%20PACK.png",
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/grape.jpeg",
       },
       {
         name: "STRAWBERRY",
         image:
-          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/DOZO%20PERKS%20MG-X%20125MG%20TAB%20_%20500MG%20PACK.png",
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/starwbery.jpeg",
       },
             {
         name: "WILD MANGO",
         image:
-          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/DOZO%20PERKS%20MG-X%20125MG%20TAB%20_%20500MG%20PACK.png",
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/wild-mongo.jpeg",
       }
     ],
   },
