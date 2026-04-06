@@ -7,7 +7,7 @@ import { RotateCcw } from "lucide-react"
 import { createClient } from "@supabase/supabase-js"
 
 const supabase = createClient(
- "https://kcgpssztbdeonjnyqzqw.supabase.co"!,
+  "https://kcgpssztbdeonjnyqzqw.supabase.co"!,
   "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImtjZ3Bzc3p0YmRlb25qbnlxenF3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3MjI5NDgxOSwiZXhwIjoyMDg3ODcwODE5fQ.BkMTggW_XdRzrYeCeEcwVzoU3Vm_s4fG9pMaJ2R3Jpo"! // 🔑 bypass RLS
 )
 
@@ -45,45 +45,6 @@ const products: Product[] = [
       {
         name: "WILD MANGO",
         image: "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/WILD-MANGO_110x110@2x.webp?v=1743019004",
-      },
-    ],
-  },
-  {
-    id: 1,
-    name: "DOZO PERKS 7-OH 20MG PACK / 2 COUNT",
-    image: "https://bigbrandsdistro.com/cdn/shop/files/DOZO-5G-LIQUID-DIAMONDS-THC-DISPOSABLE-VAPE-1.png?v=1740429214",
-    packagingSpecs: ["20 MG TABS x 2 TABS", "40 MG PACK", "10 PACKS/BOX", "20 BOXES/CASE = 200 PACKS"],
-    price: 70,
-    variants: [
-      {
-        name: "CHILL BERRY (MELLOW BLEND)",
-        image:
-          "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/DOZO-5G-LIQUID-DIAMONDS-THC-DISPOSABLE-VAPE-1.png?v=1740429214",
-      },
-      {
-        name: "RAW GOLD (MELLOW BLEND)",
-        image:
-          "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/GRAND-TRAPPER-OG-INDICA-1_10x110@2x.png?v=1740429215",
-      },
-      {
-        name: "SPEARMINT (PARTY BLEND)",
-        image:
-          "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/LEMON-CHERRY-GELATO-SATIVA-1_110x110@2x.png?v=1740429215",
-      },
-      {
-        name: "WILD MANGO (PARTY BLEND)",
-        image:
-          "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/ELGATO-GELATO-SATIVA-1_110x110@2x.png?v=1740429214",
-      },
-      {
-        name: "NATURAL (PARTY BLEND)",
-        image:
-          "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/imgi_1_Dozo-Perks-7-hydroxymitragynine-Tablets-Cherry-2ct__96841.1741371051.png?v=1754356120",
-      },
-      {
-        name: "CHERRY (PARTY BLEND)",
-        image:
-          "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/imgi_1_Dozo-Perks-7-hydroxymitragynine-Tablets-Cherry-6ct__52312.1741371051.jpg?v=1754355831",
       },
     ],
   },
@@ -184,36 +145,6 @@ const products: Product[] = [
     ],
   },
   {
-    id: 3,
-    name: "DOZO PERKS PSEUDO 20MG PACK / 3 COUNT",
-    image:
-      "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/DOZO-PERKS-PSEUDOINDOXYL-60MG-10_PK.webp?v=1756940810",
-    packagingSpecs: ["20 MG TABS x 3 TABS", "60 MG PACK", "10 PACKS/BOX", "20 BOXES/CASE = 200 PACKS"],
-    price: 100,
-    variants: [
-      {
-        name: "BLUE RAZZ (FOCUS)",
-        image:
-          "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/WILDMANGO_PARTYBLEND-4CTPACK_eb30b199-b7b8-4082-b897-2a93252b9d88_110x110@2x.png?v=1743020464",
-      },
-      {
-        name: "MANGO (ENERGY)",
-        image:
-          "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/MANGO-_-ENERGY-SINGLE_110x110@2x.png?v=1743020464",
-      },
-      {
-        name: "STRAWBERRY (FOCUS)",
-        image:
-          "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/STRAWBERRY-_-FOCUS-SINGLE_110x110@2x.png?v=1743020464",
-      },
-      {
-        name: "TROPICAL FRUIT (ENERGY)",
-        image:
-          "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/GRAPE_EUPHORIABLEND-4CTPACK_3dc7702b-e1ad-41d6-8915-1a975208ae67_110x110@2x.png?v=1743020464",
-      },
-    ],
-  },
-    {
     id: 21,
     name: "DOUBLE DRAGON 7-OH 100MG TAB | 500MG POWER PACK",
     image:
@@ -238,7 +169,7 @@ const products: Product[] = [
       }
     ],
   },
-      {
+  {
     id: 22,
     name: "DOUBLE DRAGON 7-OH 80MG TAB | 3 IN 1 FLIGHT BOX",
     image:
@@ -253,8 +184,7 @@ const products: Product[] = [
       }
     ],
   },
-
-        {
+  {
     id: 23,
     name: "DOZO PERKS MG-X 125MG TAB / 500MG PACK",
     image:
@@ -277,11 +207,61 @@ const products: Product[] = [
         image:
           "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/starwbery.jpeg",
       },
-            {
+      {
         name: "WILD MANGO",
         image:
           "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/wild-mongo.jpeg",
       }
+    ],
+  },
+  {
+    id: 24,
+    name: "DOZO PERKS PSEUDO 100MG PACK / 4 COUNT",
+    image:
+      "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/perks_main_24.jpeg",
+    packagingSpecs: ["100 MG TABS x 4 TABS", "400 MG PACK", " 5 PACKS/BOX"],
+    price: 75,
+    variants: [
+      {
+        name: "Grape",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/grape_24.jpeg",
+      },
+      {
+        name: "Mango",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/mongo_24.jpeg",
+      },
+      {
+        name: "Blue Razz",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/blue_raze_24.jpeg",
+      },
+    ],
+  },
+  {
+    id: 25,
+    name: "DOZO PERKS 10MG BOTTLE / 10 COUNT",
+    image:
+      "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/perks_main_25.jpeg",
+    packagingSpecs: ["100 MG TABS x 10 TABS", "1000 MG BOTTLE", "5 BOTTLE/BOX", "20 BOXES/CASE = 100 PACKS"],
+    price: 75,
+    variants: [
+      {
+        name: "Wild Cherry",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/wild_cherry_25.jpeg",
+      },
+      {
+        name: "Grape",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/grape_25.jpeg",
+      },
+      {
+        name: "Blue Razz",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/blue_razz_25.jpeg",
+      },
     ],
   },
 ]
@@ -746,7 +726,7 @@ ${itemsHtml}
           const pdfBlob = pdf.output("blob")
           const pdfFileName = `Wazabi_Order_${String(orderNumber).padStart(3, "0")}_${new Date().toISOString().split("T")[0]}.pdf`
 
-          console.log("🔄 Uploading PDF to storage...",pdfBlob)
+          console.log("🔄 Uploading PDF to storage...", pdfBlob)
           const { data: uploadData, error: uploadError } = await supabase.storage
             .from("invoices")
             .upload(`public/${pdfFileName}`, pdfBlob, {
@@ -942,7 +922,7 @@ ${itemsHtml}
                 onKeyDown={(e) => {
                   if (e.key === "Enter") {
                     e.preventDefault()
-                    ;(e.target as HTMLInputElement).blur()
+                      ; (e.target as HTMLInputElement).blur()
                     // Move focus to next field or trigger next action
                     const nextField = document.querySelector(
                       'input[placeholder="Your Business Name *"]',
@@ -963,7 +943,7 @@ ${itemsHtml}
                 onKeyDown={(e) => {
                   if (e.key === "Enter") {
                     e.preventDefault()
-                    ;(e.target as HTMLInputElement).blur()
+                      ; (e.target as HTMLInputElement).blur()
                     // Move focus to next field
                     const nextField = document.querySelector(
                       'input[placeholder="Your Cell Number *"]',
@@ -984,7 +964,7 @@ ${itemsHtml}
                 onKeyDown={(e) => {
                   if (e.key === "Enter") {
                     e.preventDefault()
-                    ;(e.target as HTMLInputElement).blur()
+                      ; (e.target as HTMLInputElement).blur()
                     // Move focus to next field
                     const nextField = document.querySelector('input[placeholder="Your Email *"]') as HTMLInputElement
                     if (nextField) nextField.focus()
@@ -1003,7 +983,7 @@ ${itemsHtml}
                 onKeyDown={(e) => {
                   if (e.key === "Enter") {
                     e.preventDefault()
-                    ;(e.target as HTMLInputElement).blur()
+                      ; (e.target as HTMLInputElement).blur()
                     // Check if all fields are filled and proceed to next step
                     if (
                       accountManager.trim() !== "" &&
@@ -1104,9 +1084,8 @@ ${itemsHtml}
             <div
               onClick={() => selectCustomerType("Store")}
               id="type-store"
-              className={`cursor-pointer border-2 rounded-xl p-6 hover:border-[#02a8e4] w-[calc(50%-0.5rem)] md:w-40 text-center flex flex-col items-center justify-center ${
-                customerType === "Store" ? "border-[#02a8e4]" : "border-gray-300"
-              }`}
+              className={`cursor-pointer border-2 rounded-xl p-6 hover:border-[#02a8e4] w-[calc(50%-0.5rem)] md:w-40 text-center flex flex-col items-center justify-center ${customerType === "Store" ? "border-[#02a8e4]" : "border-gray-300"
+                }`}
             >
               <div className="mb-2 flex justify-center">
                 <svg
@@ -1131,9 +1110,8 @@ ${itemsHtml}
             <div
               onClick={() => selectCustomerType("Wholesale")}
               id="type-wholesale"
-              className={`cursor-pointer border-2 rounded-xl p-6 hover:border-[#02a8e4] w-[calc(50%-0.5rem)] md:w-40 text-center flex flex-col items-center justify-center ${
-                customerType === "Wholesale" ? "border-[#02a8e4]" : "border-gray-300"
-              }`}
+              className={`cursor-pointer border-2 rounded-xl p-6 hover:border-[#02a8e4] w-[calc(50%-0.5rem)] md:w-40 text-center flex flex-col items-center justify-center ${customerType === "Wholesale" ? "border-[#02a8e4]" : "border-gray-300"
+                }`}
             >
               <div className="mb-2 flex justify-center">
                 <svg
@@ -1162,7 +1140,7 @@ ${itemsHtml}
                 onKeyDown={(e) => {
                   if (e.key === "Enter") {
                     e.preventDefault()
-                    ;(e.target as HTMLInputElement).blur()
+                      ; (e.target as HTMLInputElement).blur()
                     handleNext()
                   }
                 }}
@@ -1191,13 +1169,12 @@ ${itemsHtml}
                 return (
                   <div
                     key={product.id}
-                    className={`product-card p-2 md:p-4 border rounded-xl bg-white shadow text-center transition-all cursor-pointer relative ${
-                      product.soldOut
-                        ? "opacity-50 cursor-not-allowed"
-                        : hasQuantity
-                          ? "bg-blue-50 border-[#02a8e4] border-2"
-                          : "hover:bg-blue-50 hover:border-[#02a8e4]"
-                    }`}
+                    className={`product-card p-2 md:p-4 border rounded-xl bg-white shadow text-center transition-all cursor-pointer relative ${product.soldOut
+                      ? "opacity-50 cursor-not-allowed"
+                      : hasQuantity
+                        ? "bg-blue-50 border-[#02a8e4] border-2"
+                        : "hover:bg-blue-50 hover:border-[#02a8e4]"
+                      }`}
                     onClick={() => {
                       if (!product.soldOut) {
                         console.log(
@@ -1286,13 +1263,11 @@ ${itemsHtml}
             <div className="flex flex-col md:flex-row gap-4 md:gap-6 items-start h-full">
               <div className="w-full md:w-1/2 md:sticky md:top-0 md:self-start">
                 <div
-                  className={`product-card p-3 md:p-4 border rounded-xl bg-white shadow text-center transition-all ${
-                    isSoldOut
-                      ? "border-gray-300 bg-gray-100 cursor-not-allowed opacity-75"
-                      : `cursor-pointer hover:bg-blue-50 hover:border-[#02a8e4] ${
-                          isSelected ? "border-2 border-[#02a8e4] bg-blue-50" : ""
-                        }`
-                  }`}
+                  className={`product-card p-3 md:p-4 border rounded-xl bg-white shadow text-center transition-all ${isSoldOut
+                    ? "border-gray-300 bg-gray-100 cursor-not-allowed opacity-75"
+                    : `cursor-pointer hover:bg-blue-50 hover:border-[#02a8e4] ${isSelected ? "border-2 border-[#02a8e4] bg-blue-50" : ""
+                    }`
+                    }`}
                   onClick={() => !isSoldOut && handleProductSelect(product.id, true)}
                 >
                   <img
@@ -1379,11 +1354,10 @@ ${itemsHtml}
                       return (
                         <div
                           key={variant.name}
-                          className={`flex items-center justify-between p-2 md:p-3 rounded-lg border ${
-                            isSelected && !isSoldOut
-                              ? "bg-white border-gray-100"
-                              : "bg-gray-50 border-gray-200 opacity-60"
-                          }`}
+                          className={`flex items-center justify-between p-2 md:p-3 rounded-lg border ${isSelected && !isSoldOut
+                            ? "bg-white border-gray-100"
+                            : "bg-gray-50 border-gray-200 opacity-60"
+                            }`}
                         >
                           <div className="flex items-center space-x-2 md:space-x-3">
                             <div className="w-10 h-10 md:w-12 md:h-12 bg-gray-100 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -1400,11 +1374,10 @@ ${itemsHtml}
 
                           <div className="flex items-center space-x-1 md:space-x-2">
                             <button
-                              className={`w-6 h-6 md:w-8 md:h-8 rounded-full border-2 flex items-center justify-center transition-colors text-sm md:text-lg font-bold ${
-                                isSelected && !isSoldOut
-                                  ? "border-blue-400 text-blue-400 hover:bg-blue-50 cursor-pointer"
-                                  : "border-gray-300 text-gray-300 cursor-not-allowed"
-                              }`}
+                              className={`w-6 h-6 md:w-8 md:h-8 rounded-full border-2 flex items-center justify-center transition-colors text-sm md:text-lg font-bold ${isSelected && !isSoldOut
+                                ? "border-blue-400 text-blue-400 hover:bg-blue-50 cursor-pointer"
+                                : "border-gray-300 text-gray-300 cursor-not-allowed"
+                                }`}
                               onClick={(e) => {
                                 e.stopPropagation()
                                 if (isSelected && !isSoldOut) {
@@ -1449,24 +1422,22 @@ ${itemsHtml}
                                   if (isSelected && !isSoldOut) {
                                     updateVariantQuantity(product.id, variant.name, val)
                                   }
-                                  ;(e.target as HTMLInputElement).blur()
+                                  ; (e.target as HTMLInputElement).blur()
                                 }
                               }}
-                              className={`w-10 md:w-12 text-center border rounded text-xs md:text-sm font-medium focus:outline-none px-1 md:px-2 py-1 ${
-                                isSelected && !isSoldOut
-                                  ? "border-gray-300 bg-white focus:border-blue-400 cursor-text"
-                                  : "border-gray-200 bg-gray-100 cursor-not-allowed"
-                              }`}
+                              className={`w-10 md:w-12 text-center border rounded text-xs md:text-sm font-medium focus:outline-none px-1 md:px-2 py-1 ${isSelected && !isSoldOut
+                                ? "border-gray-300 bg-white focus:border-blue-400 cursor-text"
+                                : "border-gray-200 bg-gray-100 cursor-not-allowed"
+                                }`}
                               min="0"
                               disabled={!isSelected || isSoldOut}
                               readOnly={!isSelected || isSoldOut}
                             />
                             <button
-                              className={`w-6 h-6 md:w-8 md:h-8 rounded-full border-2 flex items-center justify-center transition-colors text-sm md:text-lg font-bold ${
-                                isSelected && !isSoldOut
-                                  ? "border-blue-400 text-blue-400 hover:bg-blue-50 cursor-pointer"
-                                  : "border-gray-300 text-gray-300 cursor-not-allowed"
-                              }`}
+                              className={`w-6 h-6 md:w-8 md:h-8 rounded-full border-2 flex items-center justify-center transition-colors text-sm md:text-lg font-bold ${isSelected && !isSoldOut
+                                ? "border-blue-400 text-blue-400 hover:bg-blue-50 cursor-pointer"
+                                : "border-gray-300 text-gray-300 cursor-not-allowed"
+                                }`}
                               onClick={(e) => {
                                 e.stopPropagation()
                                 if (isSelected && !isSoldOut) {
@@ -1865,13 +1836,12 @@ ${itemsHtml}
             {[0, 1, 2].map((step) => (
               <span
                 key={step}
-                className={`w-4 h-4 rounded-full z-20 ${
-                  (currentStep === 1 && step === 0) ||
+                className={`w-4 h-4 rounded-full z-20 ${(currentStep === 1 && step === 0) ||
                   (currentStep >= 2 && currentStep < products.length + 4 && step === 1) ||
                   (currentStep === products.length + 4 && step === 2)
-                    ? "bg-red-600"
-                    : "bg-red-200"
-                }`}
+                  ? "bg-red-600"
+                  : "bg-red-200"
+                  }`}
               />
             ))}
 
