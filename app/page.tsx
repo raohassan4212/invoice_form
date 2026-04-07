@@ -220,7 +220,7 @@ const products: Product[] = [
     image:
       "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/perks_main_24.jpeg",
     packagingSpecs: ["100 MG TABS x 4 TABS", "400 MG PACK", " 5 PACKS/BOX"],
-    price: 75,
+    price: 200,
     variants: [
       {
         name: "Grape",
@@ -245,7 +245,7 @@ const products: Product[] = [
     image:
       "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/perks_main_25.jpeg",
     packagingSpecs: ["100 MG TABS x 10 TABS", "1000 MG BOTTLE", "5 BOTTLE/BOX", "20 BOXES/CASE = 100 PACKS"],
-    price: 75,
+    price: 200,
     variants: [
       {
         name: "Wild Cherry",
