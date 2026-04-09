@@ -241,7 +241,7 @@ const products: Product[] = [
   },
   {
     id: 25,
-    name: "DOZO PERKS 10MG BOTTLE / 10 COUNT",
+    name: "DOZO PERKS 100MG BOTTLE / 10 COUNT",
     image:
       "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/perks_main_25.jpeg",
     packagingSpecs: ["100 MG TABS x 10 TABS", "1000 MG BOTTLE", "5 BOTTLE/BOX", "20 BOXES/CASE = 100 PACKS"],
