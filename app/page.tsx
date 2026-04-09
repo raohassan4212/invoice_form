@@ -33,15 +33,15 @@ const products: Product[] = [
     packagingSpecs: ["40MG (30ML)", "12 BOTTLES/BOX", "24 BOXES/CASE = 288 BOTTLES"],
     price: 96,
     variants: [
-      {
-        name: "BLUEBERRY SLUSHIE",
-        image: "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/BLUEBERRYSLUSHIE02_110x110@2x.png?v=1743019004",
-      },
-      {
-        name: "STRAWBERRY LEMONADE",
-        image:
-          "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/STRAWBERRYLEMONADE02_110x110@2x.png?v=1743019004",
-      },
+      // {
+      //   name: "BLUEBERRY SLUSHIE",
+      //   image: "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/BLUEBERRYSLUSHIE02_110x110@2x.png?v=1743019004",
+      // },
+      // {
+      //   name: "STRAWBERRY LEMONADE",
+      //   image:
+      //     "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/STRAWBERRYLEMONADE02_110x110@2x.png?v=1743019004",
+      // },
       {
         name: "WILD MANGO",
         image: "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/WILD-MANGO_110x110@2x.webp?v=1743019004",
@@ -55,32 +55,32 @@ const products: Product[] = [
     packagingSpecs: ["20 MG TABS x 6 TABS", "120 MG PACK", "10 PACKS/BOX", "20 BOXES/CASE = 200 PACKS"],
     price: 165,
     variants: [
-      {
-        name: "CHILL BERRY (MELLOW BLEND)",
-        image: "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/Chill-Berry_110x110@2x.webp?v=1740429215",
-      },
+      // {
+      //   name: "CHILL BERRY (MELLOW BLEND)",
+      //   image: "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/Chill-Berry_110x110@2x.webp?v=1740429215",
+      // },
       {
         name: "RAW GOLD (MELLOW BLEND)",
         image: "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/Raw-Gold_110x110@2x.webp?v=1740429215",
       },
-      {
-        name: "SPEARMINT (PARTY BLEND)",
-        image: "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/SPEAR-MINT_110x110@2x.webp?v=1740429214",
-      },
-      {
-        name: "WILD MANGO (PARTY BLEND)",
-        image: "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/PARTY-BLEND_110x110@2x.webp?v=1740429215",
-      },
-      {
-        name: "NATURAL (PARTY BLEND)",
-        image:
-          "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/imgi_1_Dozo-Perks-7-hydroxymitragynine-20mg-Party-Blend-Natural-6ct__53028.1748371942_1.jpg?v=1754355832",
-      },
-      {
-        name: "CHERRY (PARTY BLEND)",
-        image:
-          "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/imgi_1_Dozo-Perks-7-hydroxymitragynine-Tablets-Cherry-2ct__96841.1741371051.jpg?v=1754355831",
-      },
+      // {
+      //   name: "SPEARMINT (PARTY BLEND)",
+      //   image: "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/SPEAR-MINT_110x110@2x.webp?v=1740429214",
+      // },
+      // {
+      //   name: "WILD MANGO (PARTY BLEND)",
+      //   image: "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/PARTY-BLEND_110x110@2x.webp?v=1740429215",
+      // },
+      // {
+      //   name: "NATURAL (PARTY BLEND)",
+      //   image:
+      //     "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/imgi_1_Dozo-Perks-7-hydroxymitragynine-20mg-Party-Blend-Natural-6ct__53028.1748371942_1.jpg?v=1754355832",
+      // },
+      // {
+      //   name: "CHERRY (PARTY BLEND)",
+      //   image:
+      //     "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/imgi_1_Dozo-Perks-7-hydroxymitragynine-Tablets-Cherry-2ct__96841.1741371051.jpg?v=1754355831",
+      // },
     ],
   },
   {
