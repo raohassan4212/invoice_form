@@ -906,7 +906,7 @@ ${itemsHtml}
               >
                 <option value="">Select Account Manager&nbsp;*</option>
                 <option value="Assign me one">Assign me one</option>
-                <option value="Denisse - 0811">Denisse - 0811</option>
+                <option value="Daniela - 1199">Daniela  - 1199</option>
                 <option value="Khan - 0782">Khan - 0782</option>
                 <option value="Lucky - 6786">Lucky - 6786</option>
                 <option value="Nizar Habibi - 0505">Nizar Habibi - 0505</option>
