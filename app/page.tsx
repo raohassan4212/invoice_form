@@ -88,7 +88,7 @@ const products: Product[] = [
     name: "DOZO PERKS 7-OH 50MG TABS / 4 COUNT",
     image: "https://bigbrandsdistro.com/cdn/shop/files/DOZOPERKS7-HYDROXYMITRAGYNINE200MG10_PK.png?v=1742935161",
     packagingSpecs: ["50 MG TABS x 4 TABS", "200 MG PACK", "10 PACKS/BOX", "20 BOXES/CASE = 200 PACKS"],
-    price: 220,
+    price: 100,
     variants: [
       {
         name: "CHILL BERRY | MELLOW BLEND",
@@ -124,7 +124,7 @@ const products: Product[] = [
     name: "DOZO PERKS 7-OH 100MG PACK / 4 COUNT",
     image: "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/Untitled_design_67.png?v=1759791616",
     packagingSpecs: ["100 MG TABS x 4 TABS", "400 MG PACK", "5 PACKS/BOX", "40 BOXES/CASE = 200 PACKS"],
-    price: 135,
+    price: 75.00,
     variants: [
       {
         name: "WATERMELON",
@@ -141,6 +141,10 @@ const products: Product[] = [
       {
         name: "GRAPE",
         image: "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/4.png?v=1759791615",
+      },
+      {
+        name: "WILD CHERRY",
+        image: "",
       },
     ],
   },
@@ -245,7 +249,7 @@ const products: Product[] = [
     image:
       "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/perks_main_25.jpeg",
     packagingSpecs: ["100 MG TABS x 10 TABS", "1000 MG BOTTLE", "5 BOTTLE/BOX", "30 BOXES/CASE = 150 PACKS"],
-    price: 200,
+    price: 165.00,
     variants: [
       {
         name: "Wild Cherry",
