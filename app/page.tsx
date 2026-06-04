@@ -85,7 +85,7 @@ const products: Product[] = [
   },
   {
     id: 2,
-    name: "DOZO PERKS 7-OH 50MG PACK / 4 COUNT",
+    name: "DOZO PERKS 7-OH 50MG TABS / 4 COUNT",
     image: "https://bigbrandsdistro.com/cdn/shop/files/DOZOPERKS7-HYDROXYMITRAGYNINE200MG10_PK.png?v=1742935161",
     packagingSpecs: ["50 MG TABS x 4 TABS", "200 MG PACK", "10 PACKS/BOX", "20 BOXES/CASE = 200 PACKS"],
     price: 220,
@@ -123,7 +123,7 @@ const products: Product[] = [
     id: 11,
     name: "DOZO PERKS 7-OH 100MG PACK / 4 COUNT",
     image: "https://cdn.shopify.com/s/files/1/0681/7654/3930/files/Untitled_design_67.png?v=1759791616",
-    packagingSpecs: ["100 MG TABS x 4 TABS", "400 MG PACK", "10 PACKS/BOX", "20 BOXES/CASE = 200 PACKS"],
+    packagingSpecs: ["100 MG TABS x 4 TABS", "400 MG PACK", "5 PACKS/BOX", "40 BOXES/CASE = 200 PACKS"],
     price: 135,
     variants: [
       {
@@ -150,7 +150,7 @@ const products: Product[] = [
     image:
       "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/Perks%20Kratom%20extract%205ct%201250mgpack%20(1).png",
     packagingSpecs: ["100 MG TABS x 5 TABS", "500 MG PACK", "5 PACKS/BOX", "30 BOXES/CASE"],
-    price: 92.50,
+    price: 67.50,
     variants: [
       {
         name: "BLUE RAZZ (RISE BLEND)",
@@ -175,7 +175,7 @@ const products: Product[] = [
     image:
       "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/WhatsApp%20Image%202026-03-31%20at%2011.54.20%20PM.jpeg",
     packagingSpecs: ["80 MG TABS x 30 TABS", "30 TAB/BOX", "30 BOXES/CASE"],
-    price: 105,
+    price: 84.00,
     variants: [
       {
         name: "WATERMELON RISE BLEND | MANGO FLOW BLEND | GRAPE FADE BLEND",
@@ -220,7 +220,7 @@ const products: Product[] = [
     image:
       "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/perks_main_24.jpeg",
     packagingSpecs: ["100 MG TABS x 4 TABS", "400 MG PACK", " 5 PACKS/BOX"],
-    price: 200,
+    price: 75.00,
     variants: [
       {
         name: "Grape",
@@ -244,7 +244,7 @@ const products: Product[] = [
     name: "DOZO PERKS 100MG BOTTLE / 10 COUNT",
     image:
       "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/perks_main_25.jpeg",
-    packagingSpecs: ["100 MG TABS x 10 TABS", "1000 MG BOTTLE", "5 BOTTLE/BOX", "20 BOXES/CASE = 100 PACKS"],
+    packagingSpecs: ["100 MG TABS x 10 TABS", "1000 MG BOTTLE", "5 BOTTLE/BOX", "30 BOXES/CASE = 150 PACKS"],
     price: 200,
     variants: [
       {
