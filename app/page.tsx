@@ -270,7 +270,7 @@ const products: Product[] = [
   },
   {
     id: 26,
-    name: "70H-MG-X 1CTT",
+    name: "70H-MG-X 1CT",
     image:
       "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-main.jpeg",
     packagingSpecs: [],
