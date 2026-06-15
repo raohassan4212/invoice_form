@@ -268,6 +268,66 @@ const products: Product[] = [
       },
     ],
   },
+  {
+    id: 26,
+    name: "70H-MG-X 1CTT",
+    image:
+      "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-main.jpeg",
+    packagingSpecs: [],
+    price: 175.00,
+    variants: [
+      {
+        name: "Wild Cherry",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-wild-cherry.jpeg",
+      },
+      {
+        name: "Grape",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-grape.jpeg",
+      },
+      {
+        name: "Blue Razz",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-blue-raze.jpeg",
+      },
+      {
+        name: "Strawberry",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-starwberry.jpeg",
+      },
+    ],
+  },
+    {
+    id: 27,
+    name: "7OH-MG-X 4CT",
+    image:
+      "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-4-main.jpeg",
+    packagingSpecs: [],
+    price: 125.00,
+    variants: [
+      {
+        name: "Wild Cherry",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-4-wild-cherry.jpeg",
+      },
+      {
+        name: "Grape",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-4-grape.jpeg",
+      },
+      {
+        name: "Blue Razz",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-4-blue-raze.jpeg",
+      },
+      {
+        name: "Strawberry",
+        image:
+          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-4-strawberry.jpeg",
+      },
+    ],
+  },
 ]
 
 export default function ProductSurvey() {
