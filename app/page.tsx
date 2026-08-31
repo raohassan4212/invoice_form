@@ -218,31 +218,31 @@ const products: Product[] = [
       }
     ],
   },
-  {
-    id: 24,
-    name: "DOZO PERKS PSEUDO 100MG PACK / 4 COUNT",
-    image:
-      "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/perks_main_24.jpeg",
-    packagingSpecs: ["100 MG TABS x 4 TABS", "400 MG PACK", " 5 PACKS/BOX"],
-    price: 75.00,
-    variants: [
-      {
-        name: "Grape",
-        image:
-          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/grape_24.jpeg",
-      },
-      {
-        name: "Mango",
-        image:
-          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/mongo_24.jpeg",
-      },
-      {
-        name: "Blue Razz",
-        image:
-          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/blue_raze_24.jpeg",
-      },
-    ],
-  },
+  // {
+  //   id: 24,
+  //   name: "DOZO PERKS PSEUDO 100MG PACK / 4 COUNT",
+  //   image:
+  //     "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/perks_main_24.jpeg",
+  //   packagingSpecs: ["100 MG TABS x 4 TABS", "400 MG PACK", " 5 PACKS/BOX"],
+  //   price: 75.00,
+  //   variants: [
+  //     {
+  //       name: "Grape",
+  //       image:
+  //         "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/grape_24.jpeg",
+  //     },
+  //     {
+  //       name: "Mango",
+  //       image:
+  //         "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/mongo_24.jpeg",
+  //     },
+  //     {
+  //       name: "Blue Razz",
+  //       image:
+  //         "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/blue_raze_24.jpeg",
+  //     },
+  //   ],
+  // },
   {
     id: 25,
     name: "DOZO PERKS 100MG BOTTLE / 10 COUNT",
@@ -268,66 +268,66 @@ const products: Product[] = [
       },
     ],
   },
-  {
-    id: 26,
-    name: "70H-MG-X 1CT",
-    image:
-      "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-main.jpeg",
-    packagingSpecs: [],
-    price: 175.00,
-    variants: [
-      {
-        name: "Wild Cherry",
-        image:
-          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-wild-cherry.jpeg",
-      },
-      {
-        name: "Grape",
-        image:
-          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-grape.jpeg",
-      },
-      {
-        name: "Blue Razz",
-        image:
-          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-blue-raze.jpeg",
-      },
-      {
-        name: "Strawberry",
-        image:
-          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-starwberry.jpeg",
-      },
-    ],
-  },
-    {
-    id: 27,
-    name: "7OH-MG-X 4CT",
-    image:
-      "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-4-main.jpeg",
-    packagingSpecs: [],
-    price: 125.00,
-    variants: [
-      {
-        name: "Wild Cherry",
-        image:
-          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-4-wild-cherry.jpeg",
-      },
-      {
-        name: "Grape",
-        image:
-          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-4-grape.jpeg",
-      },
-      {
-        name: "Blue Razz",
-        image:
-          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-4-blue-raze.jpeg",
-      },
-      {
-        name: "Strawberry",
-        image:
-          "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-4-strawberry.jpeg",
-      },
-    ],
-  },
+  // {
+  //   id: 26,
+  //   name: "70H-MG-X 1CT",
+  //   image:
+  //     "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-main.jpeg",
+  //   packagingSpecs: [],
+  //   price: 175.00,
+  //   variants: [
+  //     {
+  //       name: "Wild Cherry",
+  //       image:
+  //         "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-wild-cherry.jpeg",
+  //     },
+  //     {
+  //       name: "Grape",
+  //       image:
+  //         "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-grape.jpeg",
+  //     },
+  //     {
+  //       name: "Blue Razz",
+  //       image:
+  //         "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-blue-raze.jpeg",
+  //     },
+  //     {
+  //       name: "Strawberry",
+  //       image:
+  //         "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-starwberry.jpeg",
+  //     },
+  //   ],
+  // },
+  //   {
+  //   id: 27,
+  //   name: "7OH-MG-X 4CT",
+  //   image:
+  //     "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-4-main.jpeg",
+  //   packagingSpecs: [],
+  //   price: 125.00,
+  //   variants: [
+  //     {
+  //       name: "Wild Cherry",
+  //       image:
+  //         "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-4-wild-cherry.jpeg",
+  //     },
+  //     {
+  //       name: "Grape",
+  //       image:
+  //         "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-4-grape.jpeg",
+  //     },
+  //     {
+  //       name: "Blue Razz",
+  //       image:
+  //         "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-4-blue-raze.jpeg",
+  //     },
+  //     {
+  //       name: "Strawberry",
+  //       image:
+  //         "https://kcgpssztbdeonjnyqzqw.supabase.co/storage/v1/object/public/invoices/70-4-strawberry.jpeg",
+  //     },
+  //   ],
+  // },
 ]
 
 export default function ProductSurvey() {
